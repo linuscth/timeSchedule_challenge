@@ -41,10 +41,10 @@ $(function () {
       // var dataTime15 = $('#hour-15').data('time');
       // var dataTime16 = $('#hour-16').data('time');
       // var dataTime17 = $('#hour-17').data('time');
-      var currentHour = today.format('H');
-
+      var currentHour = parseInt(today.format('H'));
       $('.time-block').each(function () {
         var dataTime = $(this).data('time');
+        // console.log(typeof currentHour);
         if (currentHour === dataTime) {
           $(this).addClass('present');
         } else if (currentHour > dataTime) {
