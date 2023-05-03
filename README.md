@@ -14,3 +14,7 @@ Overall, this script is designed to create an interactive planner where users ca
 
 ## Screenshot
 ![screenshot](./Assets/Screen%20Shot%202023-05-02%20at%2011.16.47%20PM.png)
+
+## urls 
+repo: https://github.com/linuscth/timeSchedule_challenge
+url: https://linuscth.github.io/timeSchedule_challenge/
